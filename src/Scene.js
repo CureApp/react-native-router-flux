@@ -23,6 +23,7 @@ export default class extends React.Component {
     tabTitleStyle: Text.propTypes.style,
     tabSelectedTitleStyle: Text.propTypes.style,
     tabTitle: PropTypes.string,
+    tabBarBackgroundImageStyle: Image.propTypes.style,
   };
 
   render() {
