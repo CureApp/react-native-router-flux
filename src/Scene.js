@@ -7,7 +7,7 @@
  *
  */
 import React, { PropTypes } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 
 export default class extends React.Component {
 
