@@ -7,7 +7,7 @@
  *
  */
 import React, { PropTypes } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 
 export default class extends React.Component {
 
@@ -23,6 +23,7 @@ export default class extends React.Component {
     tabTitleStyle: Text.propTypes.style,
     tabSelectedTitleStyle: Text.propTypes.style,
     tabTitle: PropTypes.string,
+    tabBarBackgroundImageStyle: Image.propTypes.style,
   };
 
   render() {
